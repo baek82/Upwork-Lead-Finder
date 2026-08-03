@@ -1,0 +1,33 @@
+{
+  "feeds": [
+    {
+      "name": "GA4 Dashboard",
+      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
+    },
+    {
+      "name": "Programmatic SEO",
+      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
+    },
+    {
+      "name": "SEO Monthly Reporting",
+      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
+    },
+    {
+      "name": "Automated Web Scraper",
+      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
+    },
+    {
+      "name": "Marketing Data Pipeline",
+      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
+    }
+  ],
+  "recurring_keywords": [
+    "retainer", "ongoing", "monthly", "long term", "long-term", "recurring", "continuous"
+  ],
+  "high_value_keywords": [
+    "GA4", "Google Analytics", "Search Console", "dashboard", "programmatic SEO",
+    "pSEO", "technical SEO", "site audit", "scraper", "scraping", "data pipeline",
+    "automation", "automated", "schema markup", "Shopify", "Meta Ads", "Google Ads",
+    "Supabase", "PostgreSQL", "API integration", "reporting"
+  ]
+}

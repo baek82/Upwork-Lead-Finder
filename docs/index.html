@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upwork Lead Finder</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Upwork Lead Finder</h1>
+  <p id="meta" class="meta">Loading...</p>
+</header>
+
+<section class="controls">
+  <input id="search" type="search" placeholder="Search title or snippet...">
+  <label><input id="recurringOnly" type="checkbox"> Recurring/retainer only</label>
+  <label>Min score
+    <input id="minScore" type="number" value="0" min="0" step="5">
+  </label>
+  <select id="sortBy">
+    <option value="score">Sort: score</option>
+    <option value="date">Sort: newest</option>
+  </select>
+</section>
+
+<main id="leads"></main>
+
+<script src="app.js"></script>
+</body>
+</html>
