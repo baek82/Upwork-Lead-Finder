@@ -1,26 +1,8 @@
 {
-  "feeds": [
-    {
-      "name": "GA4 Dashboard",
-      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
-    },
-    {
-      "name": "Programmatic SEO",
-      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
-    },
-    {
-      "name": "SEO Monthly Reporting",
-      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
-    },
-    {
-      "name": "Automated Web Scraper",
-      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
-    },
-    {
-      "name": "Marketing Data Pipeline",
-      "url": "PASTE_YOUR_UPWORK_RSS_URL_HERE"
-    }
-  ],
+  "email_search": {
+    "from_contains": "upwork.com",
+    "since_days": 4
+  },
   "recurring_keywords": [
     "retainer", "ongoing", "monthly", "long term", "long-term", "recurring", "continuous"
   ],

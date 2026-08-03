@@ -19,6 +19,9 @@ jobs:
           python-version: "3.11"
 
       - name: Fetch and score leads
+        env:
+          IMAP_USER: ${{ secrets.IMAP_USER }}
+          IMAP_PASSWORD: ${{ secrets.IMAP_PASSWORD }}
         run: python scripts/fetch_leads.py
 
       - name: Commit updated leads.json
